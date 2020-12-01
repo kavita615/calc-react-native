@@ -16,9 +16,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNStarterTests.m */; };
 		3DC5D1F66DBB9589000B459F /* libPods-RNStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1FD0E03411D0880112E456 /* libPods-RNStarter.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		84D6B9C747BFBF26CA1AB062 /* libPods-RNStarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907AFC65321FBFD5ED509EFE /* libPods-RNStarter-tvOS.a */; };
 		8BBA7A8A6DEC9D30EB0CDEE4 /* libPods-RNStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCC03034693B5B37C930A07 /* libPods-RNStarter-tvOSTests.a */; };
+		CE92DE69257641E1003A368B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE92DE68257641E1003A368B /* LaunchScreen.xib */; };
 		E4A918895E3C633ECA33DE5E /* libPods-RNStarter-RNStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58172CD2BA40CB8DE40D531D /* libPods-RNStarter-RNStarterTests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,11 +60,11 @@
 		54653B39A05D137DC4748665 /* Pods-RNStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNStarter-tvOSTests/Pods-RNStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		58172CD2BA40CB8DE40D531D /* libPods-RNStarter-RNStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStarter-RNStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1FD0E03411D0880112E456 /* libPods-RNStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNStarter/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		907AFC65321FBFD5ED509EFE /* libPods-RNStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A53CB705F48B01B13CC3CA /* Pods-RNStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNStarter-tvOS/Pods-RNStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AE4D915D9B8A3F29E778F33F /* Pods-RNStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNStarter-tvOS/Pods-RNStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		C24793F37C55233A4A2DD12B /* Pods-RNStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNStarter-tvOSTests/Pods-RNStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE92DE68257641E1003A368B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = RNStarter/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE9CFCA92532281F00F994E3 /* rnuc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = rnuc.xcconfig; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,8 +131,8 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				CE92DE68257641E1003A368B /* LaunchScreen.xib */,
 			);
 			name = RNStarter;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				CE92DE69257641E1003A368B /* LaunchScreen.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
