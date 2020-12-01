@@ -30,6 +30,7 @@
     "react-native-safe-area-context": "^3.1.8",
     "react-native-screens": "^2.11.0",
     "react-native-snackbar": "^2.2.3",
+    "react-native-splash-screen": "^3.2.0",
     "react-native-ultimate-config": "^3.2.4",
     "react-native-vector-icons": "^7.1.0",
     "react-query": "^2.23.1",
