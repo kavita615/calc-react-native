@@ -20,6 +20,7 @@ function Body(props: BodyProps) {
   return (
     <ScrollView
       contentContainerStyle={[styles.containerStyle, style]}
+      keyboardShouldPersistTaps={'handled'}
       {...props}
     />
   );
