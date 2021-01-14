@@ -1,5 +1,5 @@
 import AppStateHandler, {useAppState} from 'src/StateHandlers/AppStateHandler';
-import React, {useEffect, useLayoutEffect} from 'react';
+import React, {useLayoutEffect} from 'react';
 import {ActivityIndicator} from 'react-native-paper';
 import {NavigationContainer} from '@react-navigation/native';
 import AuthStackNavigator from './StackNavigators/AuthStackNavigator';
