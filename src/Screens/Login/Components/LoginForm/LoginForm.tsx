@@ -30,7 +30,6 @@ function LoginForm() {
           name: 'email',
           textInputProps: {
             label: 'Email',
-            style: {backgroundColor: 'red'},
           },
         }}
         rules={{
