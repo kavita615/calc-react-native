@@ -1,6 +1,6 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import LoginScreen from 'src/Screens/Login/LoginScreen';
+import CalculatorScreen from 'src/Screens/Calculator/CalculatorScreen';
 
 const RootStack = createStackNavigator();
 
@@ -8,8 +8,8 @@ function RootStackNavigator() {
   return (
     <RootStack.Navigator>
       <RootStack.Screen
-        name="Login"
-        component={LoginScreen}
+        name="Calculator"
+        component={CalculatorScreen}
         options={{headerShown: false}}
       />
     </RootStack.Navigator>

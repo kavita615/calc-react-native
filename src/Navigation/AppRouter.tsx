@@ -17,6 +17,7 @@ function AppRouter() {
       AppStateHandler.setState({loading: false});
     }, 2000);
   }, []);
+  console.log(loggedIn);
 
   if (loading) {
     return (
@@ -27,7 +28,6 @@ function AppRouter() {
       </Container>
     );
   }
-
   return (
     <NavigationContainer>
       {loggedIn ? <AuthStackNavigator /> : <RootStackNavigator />}

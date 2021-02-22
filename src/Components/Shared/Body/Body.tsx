@@ -4,6 +4,7 @@ import {ScrollView, ScrollViewProps, StyleSheet} from 'react-native';
 interface BodyProps extends ScrollViewProps {
   backgroundColor?: string;
   children?: any;
+  bodyProps?: any;
 }
 
 function Body(props: BodyProps) {
